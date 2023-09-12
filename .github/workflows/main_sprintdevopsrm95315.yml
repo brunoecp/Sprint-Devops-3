@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'sprintdevopsrm95315'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4BB83398CB14BAEA2B2300518D27B85 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A2F7B33EBFF74929B4F647DB24C2AA0F }}
           package: '*.jar'
