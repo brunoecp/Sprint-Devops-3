@@ -1,6 +1,6 @@
 # Sprint-Devops-3
 
-## App e plataforma web voltados ao auxílio de pessoas idosas, com o objetivo de facilitar o acesso por parte dessas pessoas aos recursos dos meios digitais de saúde.
+## API para administração de usuarios e triagens 
 
 ## Grupo: Veetor Systems
 - Integrantes:
