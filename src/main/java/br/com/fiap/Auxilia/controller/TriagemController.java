@@ -43,7 +43,7 @@ public class TriagemController {
         return ResponseEntity.ok(triagem.get());
     }
 
-    @PostMapping("{id}")
+    @PostMapping
     public ResponseEntity<Triagem> insert(@RequestBody Triagem triagem) {
         triagem.setUsuario(uRepository.findById(triagem.getUsuario().getId()).get());
 

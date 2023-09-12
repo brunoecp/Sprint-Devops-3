@@ -37,7 +37,7 @@ public class UsuarioController {
         return ResponseEntity.ok(usuario.get());
     }
 
-    @PostMapping("{id}")
+    @PostMapping
     public ResponseEntity<Usuario> insert(@RequestBody Usuario usuario) {
 
         repository.save(usuario);
